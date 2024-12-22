@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\EXP-301\\Shellcode\\cci\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|C:\\EXP-301\\Shellcode\\cci\\cci\\configs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|solutionrelative:cci\\configs.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|C:\\EXP-301\\Shellcode\\cci\\cci\\cci.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|solutionrelative:cci\\cci.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|C:\\EXP-301\\Shellcode\\cci\\cci\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|solutionrelative:cci\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|C:\\EXP-301\\Shellcode\\cci\\cci\\cci.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{E46EFBA7-CA2A-47B4-B5CD-5BD355B9C8E0}|cci\\cci.vcxproj|solutionrelative:cci\\cci.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "cci.h",
+              "DocumentMoniker": "C:\\EXP-301\\Shellcode\\cci\\cci\\cci.h",
+              "RelativeDocumentMoniker": "cci\\cci.h",
+              "ToolTip": "C:\\EXP-301\\Shellcode\\cci\\cci\\cci.h",
+              "RelativeToolTip": "cci\\cci.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T20:50:55.221Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "main.c",
+              "DocumentMoniker": "C:\\EXP-301\\Shellcode\\cci\\cci\\main.c",
+              "RelativeDocumentMoniker": "cci\\main.c",
+              "ToolTip": "C:\\EXP-301\\Shellcode\\cci\\cci\\main.c",
+              "RelativeToolTip": "cci\\main.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-22T20:49:13.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "configs.h",
+              "DocumentMoniker": "C:\\EXP-301\\Shellcode\\cci\\cci\\configs.h",
+              "RelativeDocumentMoniker": "cci\\configs.h",
+              "ToolTip": "C:\\EXP-301\\Shellcode\\cci\\cci\\configs.h",
+              "RelativeToolTip": "cci\\configs.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-22T20:45:00.321Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "cci.c",
+              "DocumentMoniker": "C:\\EXP-301\\Shellcode\\cci\\cci\\cci.c",
+              "RelativeDocumentMoniker": "cci\\cci.c",
+              "ToolTip": "C:\\EXP-301\\Shellcode\\cci\\cci\\cci.c",
+              "RelativeToolTip": "cci\\cci.c",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-12-17T14:08:47.997Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
