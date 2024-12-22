@@ -1,13 +1,15 @@
 #!/usr/bin/python
-# Based on: https://github.com/Y3A/short-reverse-shellcode/blob/main/custom_shellcode.py
 #
-# Shellcode CCI receiver:
-# This shellcode listens on port TCP 31337 for the data of cci.exe
+# Shellcode for CCI (Command & Control Interface) receive, install and execute:
+# This shellcode listens on port TCP 9001 for the data of cci.exe
 # Then saves cci.exe in C:\Users\admin\Desktop\cci.exe
-# Then adds a HKLM Run key to start it at boot
+# Then adds a value into the HKEY_CURRENT_USER Run key to start cci.exe upon machine boot
 #
-# WARNING: This shellcode performs socket, bind, listen, accept, recv
-# To use the "reverse" version (not listening but connecting back) refer to shellcode_connback_cci_receiver.py
+# The starting point for this shellcode has been the reverse TCP shellcode from here:
+# https://github.com/Y3A/short-reverse-shellcode/blob/main/custom_shellcode.py
+#
+# Warning: this shellcode calls VirtualAlloc to make the receive buffer executable.
+# This is not necessary and can be omitted. It has been included to easily support future extensions.
 
 import ctypes, struct
 from ctypes import wintypes
