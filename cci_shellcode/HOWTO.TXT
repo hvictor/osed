@@ -1,0 +1,24 @@
+Windows 10 x86 (32-bit) CCI + installer shellcode
+
+The executable built using the VS solution (cci.exe) is a Command & Control Interface.
+The implementation is very basic, since this is a demonstrator / exercise.
+Once executed, cci.exe runs in the background and connects to the configured server, providing a command prompt.
+
+The shellcode is aimed at listening for- and then receiving the data of cci.exe.
+The shellcode saves cci.exe in C:\Users\admin\Desktop (modify it to fit your needs), then creates a registry value in HKCU Run.
+This way, cci.exe is started at every boot of the target machine.
+
+Content:
+- cci:	Visual Studio 2022 C/C++ solution for the CCI (Command & Control Interface).
+- shellcode_cci_receiver.py: a shellcode for Windows 10 x86 to receive and install cci.exe.
+- send_file_data.py: a python utility to easily send the data of cci.exe to the listening shellcode.
+
+How to use it:
+1. In the cci solution, configure the attacker's host and port. The CCI will connect there.
+2. Compile the cci solution using the x86 Release build configuration.
+3. Modify the shellcode according to you needs (exe file name, user / path, etc.)
+4. On the target machine, start the shellcode using python3 (use the 32-bit version!), and attach WinDbg to python.exe if you want to debug the shellcode.
+5. On the attacker machine, listen for the CCI with "nc -l -p <port specified in configs.h>"
+6. On the attacker machine, send cci.exe to the shellcode using send_file_data.py
+7. The CCI should connect to the attacker, and the "cci> " prompt should be visible.
+8. Verify that the HKCU Run key is present in the target machine's registry.
